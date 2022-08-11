@@ -1,1 +1,2 @@
-# swe4-project-1
+# Software Engineering IV: Project 1
+### Created by Ethan, Logan, Nathan and Peyton
