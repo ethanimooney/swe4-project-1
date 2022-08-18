@@ -71,6 +71,10 @@
   padding: 6vh 8vw;
 }
 
+.linksSectionSingle {
+  grid-template-columns: 1fr;
+}
+
 .linksSection h2 {
   color: #ffffff;
 }
@@ -101,7 +105,8 @@
 }
 
 .linksSectionLeftContainer,
-.linksSectionRightContainer {
+.linksSectionRightContainer,
+.linksSectionMiddleContainer {
   align-items: center;
   display: flex;
   flex-flow: column;
