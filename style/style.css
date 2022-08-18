@@ -151,6 +151,8 @@
 }
 
 .headerSectionRight {
+  display: grid;
+  grid-template-columns: 1fr;
   padding: 4vh 4vh 4vh 2vh;
 }
 
@@ -159,13 +161,10 @@
   max-width: 100%;
 }
 
-.headerImageContainer {
-  display: flex;
-  flex-flow: column;
-}
-
 .headerImageContainer img {
-  width: auto;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .headingTextContainer {
