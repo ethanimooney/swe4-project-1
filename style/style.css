@@ -145,7 +145,8 @@
 
 .headerSectionLeft {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  row-gap: 3vh;
   padding: 4vh 2vh 4vh 4vh;
 }
 
