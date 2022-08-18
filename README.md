@@ -1,2 +1,3 @@
 # Software Engineering IV: Project 1
-### Created by Ethan, Logan, Nathan and Peyton
+
+### Created by Team 3: Ethan, Logan, Nathan and Peyton
