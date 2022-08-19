@@ -50,6 +50,20 @@
   cursor: pointer;
 }
 
+.descriptionItemArea a {
+  align-items: center;
+  color:  #45555e;
+  display: flex;
+  flex-flow: row;
+  padding: 2.5vh 1vw 2.5vh 1vw;
+  text-decoration: none;
+}
+
+.descriptionItemArea a:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
 .mainContainer {
   display: grid;
   grid-template-columns: auto;
