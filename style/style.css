@@ -105,6 +105,16 @@
   padding: 6vh 8vw;
 }
 
+.aboutCSLinksSection {
+  align-items: center;
+  background-color: #45555e;
+  color: #e5e5e5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 6vh 8vw;v
+}
+
 .linksSectionSingle {
   grid-template-columns: 1fr;
 }
