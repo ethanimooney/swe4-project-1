@@ -90,6 +90,11 @@
   text-align: center;
 }
 
+.jobTable td {
+  padding: 0 15px 0 15px;
+  text-align: left;
+}
+
 .linksSection {
   align-items: center;
   background-color: #45555e;
