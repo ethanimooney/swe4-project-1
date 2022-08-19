@@ -50,6 +50,20 @@
   cursor: pointer;
 }
 
+.descriptionItemArea a {
+  align-items: center;
+  color:  #45555e;
+  display: flex;
+  flex-flow: row;
+  padding: 2.5vh 1vw 2.5vh 1vw;
+  text-decoration: none;
+}
+
+.descriptionItemArea a:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
 .mainContainer {
   display: grid;
   grid-template-columns: auto;
@@ -103,6 +117,16 @@
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   padding: 6vh 8vw;
+}
+
+.aboutCSLinksSection {
+  align-items: center;
+  background-color: #45555e;
+  color: #e5e5e5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 6vh 8vw;v
 }
 
 .linksSectionSingle {
