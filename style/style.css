@@ -1,0 +1,273 @@
+* {
+  font-family: sofia-pro, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mainNav {
+  background-color: #627985;
+  display: flex;
+  flex-flow: row;
+  padding: 0 4vw 0 4vw;
+}
+
+.mainNavLogoArea {
+  display: flex;
+  flex-flow: row;
+  padding: 2.5vh 0 2.5vh 0;
+  width: 40%;
+}
+
+.mainNavLogoArea a {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.mainNavLogoText {
+  align-items: center;
+  color: #ffffff;
+  font-size: 1.5vw;
+  font-weight: 200;
+  letter-spacing: 0.4vw;
+  padding: 0 0 0 2vw;
+}
+
+.mainNavItemArea {
+  display: flex;
+  flex-flow: row;
+  font-size: 1.2vw;
+  font-weight: 500;
+  letter-spacing: 0.15vw;
+  width: 60%;
+}
+
+.mainNavItemArea a {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  flex-flow: row;
+  padding: 2.5vh 1vw 2.5vh 1vw;
+  text-decoration: none;
+}
+
+.mainNavItemArea a:hover {
+  background-color: #45555e;
+  cursor: pointer;
+}
+
+.descriptionItemArea a {
+  align-items: center;
+  color: #45555e;
+  display: flex;
+  flex-flow: row;
+  padding: 2.5vh 1vw 2.5vh 1vw;
+  text-decoration: none;
+}
+
+.descriptionItemArea a:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: auto;
+  height: 10%;
+}
+
+.headerSection {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+}
+
+.jobsSection {
+  align-items: center;
+  background-color: #e5e5e5;
+  color: #45555e;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 6vh 8vw;
+}
+
+.jobsSectionText {
+  padding: 2vh 0 3vh 0;
+}
+
+.jobsSectionSingle {
+  grid-template-columns: 1fr;
+}
+
+.jobsSectionLeftContainer,
+.jobsSectionRightContainer,
+.jobsSectionMiddleContainer {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 0 8vw;
+  text-align: center;
+}
+
+.jobTable td {
+  padding: 0 15px 0 15px;
+  text-align: left;
+}
+
+.linksSection {
+  align-items: center;
+  background-color: #45555e;
+  color: #e5e5e5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 6vh 8vw;
+}
+
+.aboutCSLinksSection {
+  align-items: center;
+  background-color: #45555e;
+  color: #e5e5e5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 6vh 8vw;
+}
+
+.linksSectionSingle {
+  grid-template-columns: 1fr;
+}
+
+.linksSection h2 {
+  color: #ffffff;
+}
+
+.linksSection i {
+  color: #ffffff;
+  font-size: 4vw;
+}
+
+.aboutCSLinksSection h2 {
+  color: #ffffff;
+}
+
+.aboutCSLinksSection i {
+  color: #ffffff;
+  font-size: 4vw;
+}
+
+.linksSectionText {
+  padding: 2vh 0 3vh 0;
+}
+
+.linksSectionButton {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  color: #45555e;
+  font-size: 1.5vh;
+  padding: 0.75vh 1.25vw;
+  text-decoration: none;
+}
+
+.linksSectionButton:hover {
+  background-color: #627985;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.linksSectionLeftContainer,
+.linksSectionRightContainer,
+.linksSectionMiddleContainer {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 0 8vw;
+  text-align: center;
+}
+
+.footerContainer {
+  background-color: #ffffff;
+  color: #45555e;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  font-weight: 700;
+  padding: 3vh;
+}
+
+.footerTextContainer,
+.scrollToTopContainer {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.scrollToTopContainer i {
+  border-radius: 20%;
+  color: #45555e;
+  font-size: 2vh;
+  padding: 2vh;
+}
+
+.scrollToTopContainer i:hover {
+  background-color: #e5e5e5;
+}
+
+.headerSectionLeft {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  row-gap: 3vh;
+  padding: 4vh 2vh 4vh 4vh;
+}
+
+.headerSectionRight {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 4vh 4vh 4vh 2vh;
+}
+
+.headerSectionRight img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.headerImageContainer img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.headingTextContainer {
+  display: flex;
+  flex-flow: row;
+}
+
+.headingTextContainer h1 {
+  color: #45555e;
+  font-weight: 500;
+  font-size: 2.5vw;
+  letter-spacing: 0.5vw;
+}
+
+.headerContentContainer {
+  background-color: #e5e5e5;
+  color: #45555e;
+  display: flex;
+  flex-flow: column;
+  font-size: 1.25vw;
+  justify-content: space-around;
+  padding: 6vh 4vh;
+}
+
+.jobTable a {
+  color: #45555e;
+  text-decoration: none;
+}
+
+.jobTable a:hover {
+  color: white;
+}
