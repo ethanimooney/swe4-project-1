@@ -18,6 +18,13 @@
   width: 40%;
 }
 
+.mainNavLogoArea a {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
 .mainNavLogoText {
   align-items: center;
   color: #ffffff;
@@ -52,7 +59,7 @@
 
 .descriptionItemArea a {
   align-items: center;
-  color:  #45555e;
+  color: #45555e;
   display: flex;
   flex-flow: row;
   padding: 2.5vh 1vw 2.5vh 1vw;
@@ -126,7 +133,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-  padding: 6vh 8vw;v
+  padding: 6vh 8vw;
 }
 
 .linksSectionSingle {
@@ -138,6 +145,15 @@
 }
 
 .linksSection i {
+  color: #ffffff;
+  font-size: 4vw;
+}
+
+.aboutCSLinksSection h2 {
+  color: #ffffff;
+}
+
+.aboutCSLinksSection i {
   color: #ffffff;
   font-size: 4vw;
 }
@@ -243,5 +259,15 @@
   display: flex;
   flex-flow: column;
   font-size: 1.25vw;
+  justify-content: space-around;
   padding: 6vh 4vh;
+}
+
+.jobTable a {
+  color: #45555e;
+  text-decoration: none;
+}
+
+.jobTable a:hover {
+  color: white;
 }
